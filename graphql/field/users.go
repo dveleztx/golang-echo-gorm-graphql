@@ -14,7 +14,7 @@ var user = graphql.NewObject (
 			"id":		&graphql.Field{Type: graphql.ID},
 			"name":		&graphql.Field{Type: graphql.String},
 			"age":		&graphql.Field{Type: graphql.String},
-			"createAt":	&graphql.Field{Type: graphql.String},
+			"createdAt":	&graphql.Field{Type: graphql.String},
 			"updatedAt":	&graphql.Field{Type: graphql.String},
 			"deletedAt":	&graphql.Field{Type: graphql.String},
 		},
