@@ -1,0 +1,24 @@
+settings:
+  legacy:
+    force: false
+    interval: 0s
+server:
+  status: true
+  open: false
+  port: 5002
+  host: 192.168.33.10
+schema:
+- name: stack
+  path: .
+  commands: 
+    run:
+      status: true
+  watcher:
+    extensions:
+    - go
+    paths:
+    - /
+    ignored_paths:
+    - .git
+    - .realize
+    - vendor
