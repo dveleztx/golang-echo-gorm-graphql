@@ -1,9 +1,9 @@
 package main
 
 import (
-	"stack/handler"
-	"stack/datastore"
-	"stack/graphql"
+	"golang-echo-gorm-graphql/handler"
+	"golang-echo-gorm-graphql/datastore"
+	"golang-echo-gorm-graphql/graphql"
 	"log"
 
 	"github.com/labstack/echo"
