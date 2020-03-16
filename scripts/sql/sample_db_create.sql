@@ -8,7 +8,6 @@
 ALTER USER postgres WITH PASSWORD 'postgres';
 
 -- CREATE TABLE
-
 CREATE TABLE users (
 	id		int primary key,
 	name		varchar(30) not null,
@@ -23,5 +22,4 @@ COPY users (id, name, age, created_at, updated_at, deleted_at)
 FROM '/tmp/users_db.csv' DELIMITER ',' CSV HEADER;
 
 -- GRANT PRIVILEGES
-
 GRANT ALL PRIVILEGES ON DATABASE sample_db TO postgres;
