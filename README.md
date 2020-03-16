@@ -38,7 +38,7 @@ Then, git clone the project and go get dependencies:
 
 ```
 cd ~/go/src/
-git clone https://github.com/dveleztx/golang-echo-gorm-graphql.git
+go get github.com/dveleztx/golang-echo-gorm-graphql
 go get github.com/oxequa/realize
 go get github.com/labstack/echo
 go get github.com/jinzhu/gorm
@@ -49,6 +49,14 @@ go get github.com/graphql-go/handler
 
 
 ### PostgreSQL Setup and Configuration
+
+#### Automated Way
+
+```
+./scripts/bash/prep.sh
+```
+
+#### Manual Way
 
 Move CSV to `/tmp` directory and then enter PSQL shell
 
