@@ -1,7 +1,7 @@
 package handler
 
 import (
-	"github.com/dveleztx/github.com/dvelezx/golang-echo-gorm-graphql/domain/model"
+	"github.com/dveleztx/golang-echo-gorm-graphql/domain/model"
 	"net/http"
 
 	"github.com/jinzhu/gorm"

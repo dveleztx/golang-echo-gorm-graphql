@@ -1,7 +1,7 @@
 package graphql
 
 import (
-	"golang-echo-gorm-graphql/graphql/field"
+	"github.com/dveleztx/golang-echo-gorm-graphql/graphql/field"
 
 	"github.com/graphql-go/graphql"
 	"github.com/jinzhu/gorm"
