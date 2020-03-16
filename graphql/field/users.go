@@ -1,7 +1,7 @@
 package field
 
 import (
-	"golang-echo-gorm-graphql/domain/model"
+	"github.com/dveleztx/golang-echo-gorm-graphql/domain/model"
 
 	"github.com/graphql-go/graphql"
 	"github.com/jinzhu/gorm"
