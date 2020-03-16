@@ -2,6 +2,7 @@
  Script      : sample_db_create.sql
  Author      : David Velez
  Date        : 03/16/2020
+ Description : Setup password for postgres user, create table, and insert data
  *****************************************************************************/
 
 -- SET PASSWORD (THIS IS ONLY FOR DEMONSTRATION PURPOSES)
